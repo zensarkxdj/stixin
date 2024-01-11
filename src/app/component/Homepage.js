@@ -1,10 +1,12 @@
+"use client";
 import React from "react";
 import Navbar from "./Navbar";
 import About from "./About";
 import Products from "./Products";
 import Production from "./Production";
 import Certificates from "./Certificates";
-import  "../assets/styles/homepage.css"
+import "../assets/styles/homepage.css";
+import Contact from "./Contact";
 
 const Homepage = () => {
   const scroll = (sectionId) => {
@@ -37,11 +39,46 @@ const Homepage = () => {
   };
   return (
     <div className="main">
-      <Navbar />
-      <About />
-      <Products/>
-      <Production/>
-      <Certificates/>
+      <Navbar scrollToSection={scroll} />
+      <div className="right-panel">
+        <div id="landing">
+        <section class="parallax-container">
+          <h1>Welcome</h1>
+        </section>
+        </div>
+        
+        <div id="about">
+          <About />
+        </div>
+
+        <section class="parallax-container2">
+          <h1>Welcome</h1>
+        </section>
+        <div id="products">
+          <Products />
+        </div>
+
+        <section class="parallax-container">
+          <h1>Welcome</h1>
+        </section>
+        <div id="production">
+          <Production />
+        </div>
+
+        <section class="parallax-container2">
+          <h1>Welcome</h1>
+        </section>
+        <div id="certificates">
+          <Certificates />
+        </div>
+
+        <section class="parallax-container">
+          <h1>Welcome</h1>
+        </section>
+        <div id="contact">
+          <Contact />
+        </div>
+      </div>
     </div>
   );
 };

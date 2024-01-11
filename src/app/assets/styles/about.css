@@ -1,0 +1,48 @@
+.about {
+  color: white;
+}
+.about-head {
+  background-color: #e30d3a;
+  padding: 5rem;
+}
+.about-des {
+  background-color: #9e9e9e;
+  display: grid;
+  padding: 5rem 10rem 5rem 5rem;
+  font-size: 15px;
+  text-align: justify;
+}
+.contact {
+  width: 100%;
+  display: grid;
+  gap: 2rem;
+}
+.contact-row1 {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.contact-text {
+  width: -webkit-fill-available;
+}
+.contact-field{
+    width: 100%;
+    background-color: white;
+    border: none;
+    padding: 15px;
+    color: black;
+
+}
+.contact-field1{
+    width: 100%;
+    background-color: white;
+    border: none;
+    padding: 15px;
+    height: 10rem;
+    color: black;
+
+}
+.contact-sub{
+    padding: 1rem;
+}
+
