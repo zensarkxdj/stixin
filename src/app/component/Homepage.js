@@ -43,7 +43,7 @@ const Homepage = () => {
       <div className="right-panel">
         <div id="landing">
         <section className="parallax-container">
-          <h1>Welcome</h1>
+          <span style={{color:"red", fontSize:"xx-large"}}>Welcome</span>
         </section>
         </div>        
         <div id="about">
@@ -75,7 +75,7 @@ const Homepage = () => {
     <Navbar scrollToSection={scroll} />
     <div id="landing-m">
         <section className="parallax-container">
-          <h1>Welcome</h1>
+          <span style={{color:"red", fontSize:"xx-large"}}>Welcome</span>
         </section>
         </div>        
         <div id="about-m">

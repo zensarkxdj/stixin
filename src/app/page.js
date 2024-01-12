@@ -1,7 +1,5 @@
-import Homepage from './component/Homepage'
+import Homepage from "./component/Homepage";
 
 export default function Home() {
-  return (
- <Homepage/>
-  )
+  return <Homepage />;
 }
