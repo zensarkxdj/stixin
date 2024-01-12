@@ -37,49 +37,72 @@ const Homepage = () => {
       requestAnimationFrame(animateScroll);
     }
   };
-  return (
+  return (<>
     <div className="main">
       <Navbar scrollToSection={scroll} />
       <div className="right-panel">
         <div id="landing">
-        <section class="parallax-container">
+        <section className="parallax-container">
           <h1>Welcome</h1>
         </section>
-        </div>
-        
+        </div>        
         <div id="about">
           <About />
         </div>
-
-        <section class="parallax-container2">
-          <h1>Welcome</h1>
+        <section className="parallax-container2">
         </section>
         <div id="products">
           <Products />
         </div>
-
-        <section class="parallax-container">
-          <h1>Welcome</h1>
+        <section className="parallax-container">
         </section>
         <div id="production">
           <Production />
         </div>
-
-        <section class="parallax-container2">
-          <h1>Welcome</h1>
+        <section className="parallax-container2">
         </section>
         <div id="certificates">
           <Certificates />
         </div>
-
-        <section class="parallax-container">
-          <h1>Welcome</h1>
+        <section className="parallax-container">
         </section>
         <div id="contact">
           <Contact />
         </div>
       </div>
     </div>
+    <div className="main-mobile">
+    <Navbar scrollToSection={scroll} />
+    <div id="landing-m">
+        <section className="parallax-container">
+          <h1>Welcome</h1>
+        </section>
+        </div>        
+        <div id="about-m">
+          <About />
+        </div>
+        <section className="parallax-container2">
+        </section>
+        <div id="products-m">
+          <Products />
+        </div>
+        <section className="parallax-container">
+        </section>
+        <div id="production-m">
+          <Production />
+        </div>
+        <section className="parallax-container2">
+        </section>
+        <div id="certificates-m">
+          <Certificates />
+        </div>
+        <section className="parallax-container">
+        </section>
+        <div id="contact-m">
+          <Contact />
+        </div>
+    </div>
+    </>
   );
 };
 

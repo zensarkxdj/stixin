@@ -4,6 +4,10 @@
 .about-head {
   background-color: #e30d3a;
   padding: 5rem;
+  display: grid;
+}
+.about-title{
+    font-size: xx-large;
 }
 .about-des {
   background-color: #9e9e9e;
@@ -45,4 +49,19 @@
 .contact-sub{
     padding: 1rem;
 }
-
+@media (max-width:1000px) {
+    .about-head {
+        background-color: #e30d3a;
+        padding: 50px 30px;
+      }
+      .about-des {
+        background-color: #9e9e9e;
+        display: grid;
+        padding: 80px 30px;
+        font-size: 15px;
+        text-align: justify;
+      }
+      .about-title{
+        font-size: x-large;
+    }
+}

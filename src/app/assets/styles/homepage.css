@@ -40,3 +40,14 @@
   
     text-align: center;
   }
+  .main-mobile{
+    display: none;
+}
+  @media (max-width:1000px) {
+    .main-mobile{
+        display: block;
+    }
+    .main{
+        display: none;
+    }
+  }

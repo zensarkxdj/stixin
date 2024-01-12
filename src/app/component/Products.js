@@ -5,7 +5,7 @@ const Products = () => {
   return (
     <div className="about">
       <div className="about-head">
-        <h1>OUR PRODUCTS</h1>
+        <span className="about-title">OUR PRODUCTS</span>
       </div>
       <div className="about-des">
         <span>

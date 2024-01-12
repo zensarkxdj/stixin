@@ -22,7 +22,7 @@ const Contact = () => {
   return (
     <div className="about">
       <div className="about-head">
-        <h1>CONTACT US</h1>
+        <span className="about-title">CONTACT US</span>
       </div>
       <div className="about-des">
         <span style={{ fontWeight: "bold"}}>

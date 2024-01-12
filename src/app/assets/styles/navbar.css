@@ -19,3 +19,57 @@
     width: 90%;
     height: 90%;
 }
+.navbar-mobile{
+    display: none;
+}
+@media (max-width:1000px) {
+    .navbar{
+        display: none;
+    }
+    /* styles/Home.module.css */
+.navbar-mobile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: white;
+    color: black;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+  }
+  
+  .hamburger {
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: red;
+  }
+  
+  .menu {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 70px; /* Adjust as needed */
+    right: 20px; /* Adjust as needed */
+    left: 20px;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 5px;
+  }
+  
+  .menu div {
+    margin: 0.5rem 0;
+    cursor: pointer;
+    color: deepskyblue;
+    font-weight: bold;
+  }
+  .navbar-img{
+    width: 120px;
+    height: 45px;
+    padding-bottom: 0;
+  }
+  
+  /* Add any additional styles as needed */
+  
+}

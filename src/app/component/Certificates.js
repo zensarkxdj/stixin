@@ -5,7 +5,7 @@ const Certificates = () => {
   return (
     <div className="about">
       <div className="about-head">
-        <h1>CERTIFICATES AND AWARDS</h1>
+        <span className="about-title">CERTIFICATES AND AWARDS</span>
         
       </div>
       <div className="about-des">

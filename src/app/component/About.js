@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div className="about">
       <div className="about-head">
-        <h1>ABOUT US</h1>
+        <span className="about-title">ABOUT US</span>
         <span>
           Welcome to Stixin, India's Leading Eco-Friendly Paper Stick
           Manufacturer!

@@ -5,7 +5,7 @@ const Production = () => {
   return (
     <div className="about">
       <div className="about-head">
-        <h1>PRODUCTION</h1>
+        <span className="about-title">PRODUCTION</span>
         <span>
         Food-Grade & FSC Certified Manufacturing Excellence
         </span> 
